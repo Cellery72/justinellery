@@ -222,13 +222,6 @@ blockquote {
 }
 
 
-
-.subfooter {
-	background-color: #fafafa;
-	border-top: 1px solid #f3f3f3;
-	border-bottom: 1px solid #f3f3f3;
-	padding: 40px 0;
-}
 .section {
 	background-color: #ffffff;
 	padding: 80px 0;
@@ -307,6 +300,10 @@ blockquote {
 .bg-image-1 {
 	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
 }
+.tobermory {
+	background: url("../images/tobermory.jpg") 50% 0px no-repeat;
+
+}
 .bg-image-2 {
 	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
 }
@@ -361,7 +358,6 @@ blockquote {
 	font-size: 60px;
 }
 .subfooter p {
-	margin-bottom: 0;
 }
 
 /* Template Components
@@ -687,7 +683,7 @@ textarea {
 	font-size: 36px;
 }
 .social-links li a {
-	color: #333333;
+	color: #ffffffz;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
