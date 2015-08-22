@@ -182,46 +182,19 @@ blockquote {
 	color: #0976b4;
 }
 .socialize li.github a:hover {
-	color: #F05033;
+	color: red;
 }
 
 
-.center {
-    width: 50%;
-    margin: 0 auto;
 
+
+
+.subfooter {
+	background-color: #fafafa;
+	border-top: 1px solid #f3f3f3;
+	border-bottom: 1px solid #f3f3f3;
+	padding: 40px 0;
 }
-#unique {
-	padding-bottom:30px;
-
-}
-#contact {
-	padding-left: 33px;
-
-}
-#html5
- {
-
-	margin-bottom: 38px;
-
-
-}
-#bootstrap 
-{
-
-	margin-bottom: 39px;
-}
-#wordpress {
-
-	margin-top: 49px;
-}
-
-#VCS {
-
-	margin-top: 49px;
-}
-
-
 .section {
 	background-color: #ffffff;
 	padding: 80px 0;
@@ -300,10 +273,6 @@ blockquote {
 .bg-image-1 {
 	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
 }
-.tobermory {
-	background: url("../images/tobermory.jpg") 50% 0px no-repeat;
-
-}
 .bg-image-2 {
 	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
 }
@@ -358,6 +327,7 @@ blockquote {
 	font-size: 60px;
 }
 .subfooter p {
+	margin-bottom: 0;
 }
 
 /* Template Components
@@ -683,7 +653,7 @@ textarea {
 	font-size: 36px;
 }
 .social-links li a {
-	color: #ffffffz;
+	color: #333333;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
