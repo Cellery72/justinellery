@@ -20,7 +20,7 @@
 		<!-- Bootstrap core CSS -->
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-		<!-- Font Awesome CSS -->
+		<!-- Font Awesome CSSfdsaf -->
 		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
 		<!-- Plugins -->
@@ -95,11 +95,10 @@
 									<!-- Collect the nav links, forms, and other content for toggling -->
 									<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 										<ul class="nav navbar-nav navbar-right">
-											<li class="active"><a href="#banner">Home</a></li>
 											<li><a href="#about">About</a></li>
-											<li><a href="http://www.elleryjustin.com/wordpress">Blog</a></li>
 											<li><a href="#services">Services</a></li>
 											<li><a href="#contact">Contact</a></li>
+											<li><a href="http://www.elleryjustin.com/wordpress">Blog</a></li>
 										</ul>
 									</div>
 
@@ -201,16 +200,22 @@
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-6">
-					<div class="media">
+					
+
+					<div id="html5" class="media">
 						<div class="media-body text-right">
 							<h4 class="media-heading">HTML5</h4>
 							<p>With HTML being the core of every website, HTML5 has brought developers a plethora of new tools to utilize and master. The long overdue update has given developers a chance to build modern websites with features you'd expect to see in this day in age.</p>
 						</div>
+
+
 						<div class="media-right">
 							<i class="fa fa-cog"></i>
 						</div>
 					</div>
-					<div class="media">
+
+
+					<div id="bootstrap" class="media">
 						<div class="media-body text-right">				
 							<h4 class="media-heading">Bootstrap</h4>
 							<p>Bootstrap's mobile first approach has gained a lot of headway in the world of development. Never has it been easier to make websites look great on a variety of different devices.</p>
@@ -220,6 +225,9 @@
 							<i class="fa fa-check"></i>
 						</div>
 					</div>
+
+
+
 					<div class="media">
 						<div class="media-body text-right">
 							<h4 class="media-heading">Visual Studio</h4>
@@ -229,7 +237,7 @@
 							<i class="fa fa-desktop"></i>
 						</div>
 					</div>
-					<div class="media">
+					<div class="media" id="VCS">
 						<div class="media-body text-right">
 							<h4 class="media-heading">Version Control</h4>
 							<p>Learning the hard way is never easy, version control plays a vital role in software projects. Git and GitHub have quickly become my favourite type of Version Control Software for all of my projects.</p>
@@ -268,7 +276,7 @@
 							<p>With over a billion websites online right now and growing by the thousands per day, you need to stand out. You need to be visible to potential customers and clients. Search Engine Optimization plays a large part in being a succesful buisness.</p>
 						</div>
 					</div>
-					<div class="media">
+					<div id="wordpress" class="media">
 						<div class="media-left">
 							<i class="fa fa-codepen"></i>
 						</div>
@@ -308,16 +316,20 @@
 				<div class="row">
 					<div class="col-sm-6">
 
-						
-						<div class="footer-content">
+				
+						<div id="unique" class="footer-content">
 
-							<p class="large">If you're looking to get in touch for a free consultation please do not hesitate to drop me a line here or via 
+							<p id="unique" align="center"class="large">If you're looking to get in touch for a free consultation please do not hesitate to drop me a line here or via 
 								<a href="mailto:hello@elleryjustin.com">email!</a> I'm also available by telephone 9-5 Monday-Friday if you're calling from Canada. If not give me a call on Skype and we can work something out!</p>
-							
-							<ul class="list-icons">
-								<li><i class="fa fa-phone pr-10"></i> 1 705 791 8914</li>
-								<li><i class="fa fa-envelope-o pr-10"></i>justin_ellery@Hotmail.ca</li>
-							</ul>
+							<div class="center">
+
+
+								<ul class="list-icons">
+									<li  id="contact"><i class="fa fa-phone pr-10"></i> 1 705 791 8914</li>
+									<li><i class="fa fa-envelope-o pr-10"></i>justin_ellery@Hotmail.ca</li>
+								</ul>
+
+
 
 							<ul class="social-links ">
 								<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
@@ -326,8 +338,9 @@
 								<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
 
-						</div>
+							</div>
 
+						</div>
 
 
 
@@ -336,28 +349,26 @@
 
 					</div>
 
+
+
+
+
+<!======== Contact Form   ========!>
+
 					<div class="col-sm-6">
 						<div class="footer-content">
-							
 							<form role="form" id="footer-form">
+
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="name2">Name</label>
 									<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
-
-
 									<i class="fa fa-user form-control-feedback"></i>
 								</div>
-
-
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="email2">Email address</label>
 									<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
 									<i class="fa fa-envelope form-control-feedback"></i>
 								</div>
-
-
-
-
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="message2">Message</label>
 									<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
@@ -365,6 +376,10 @@
 								</div>
 								
 								<input type="submit" value="Send" class="btn btn-default">
+
+
+
+
 							</form>
 
 
@@ -384,7 +399,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="text-center">Copyright © 2015 Justin Ellery.</p>
+						<p class="text-right">Copyright © 2015 Justin Ellery.</p>
 					</div>
 				</div>
 			</div>

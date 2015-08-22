@@ -182,10 +182,44 @@ blockquote {
 	color: #0976b4;
 }
 .socialize li.github a:hover {
-	color: red;
+	color: #F05033;
 }
 
 
+.center {
+    width: 50%;
+    margin: 0 auto;
+
+}
+#unique {
+	padding-bottom:30px;
+
+}
+#contact {
+	padding-left: 33px;
+
+}
+#html5
+ {
+
+	margin-bottom: 38px;
+
+
+}
+#bootstrap 
+{
+
+	margin-bottom: 39px;
+}
+#wordpress {
+
+	margin-top: 49px;
+}
+
+#VCS {
+
+	margin-top: 49px;
+}
 
 
 
