@@ -1,14 +1,16 @@
-/* Theme Name:Worthy - Free Powerful Theme by HtmlCoder
-Author:HtmlCoder
-Author URI:http://www.htmlcoder.me
-Version:1.0.0
-Created:November 2014
-License:Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
-File Description:Main CSS file of the template */
+/*
+	Author: Justin Ellery
+	Author URL: http://www.elleryjustin.com
+	Version: 0.6.0
+	Created: September 2015
+	License:Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+	File Description: Main CSS file of the site 
+*/
+
+
 
 /* Typography
 ----------------------------------------------------------------------------- */
-
 .site-name {
 	font-family: 'Raleway', sans-serif;
 	padding-top:9px;
@@ -112,6 +114,7 @@ blockquote {
 	margin-top: 0;
 }
 
+
 /* Layout
 ----------------------------------------------------------------------------- */
 .header {
@@ -151,9 +154,6 @@ blockquote {
 	width: 100%;
 	z-index: 2;
 }
-
-
-
 .socialize  {
 	padding: 0;
 	list-style: none;
@@ -184,26 +184,33 @@ blockquote {
 .socialize li.github a:hover {
 	color: #F05033;
 }
-
-		.center {
+.center {
     width: 50%;
     margin: 0 auto;
-
 }
+.subfooter {
+	background-color: #fafafa;
+	border-top: 1px solid #f3f3f3;
+	border-bottom: 1px solid #f3f3f3;
+	padding: 40px 0;
+}
+.section {
+	background-color: #ffffff;
+	padding: 80px 0;
+}
+
+
+
+/* ID's
+----------------------------------------------------------------------------- */
 #unique {
 	padding-bottom:30px;
-
 }
 #contact {
 	padding-left: 33px;
-
 }
-#html5
- {
-
+#html5 {
 	margin-bottom: 38px;
-
-
 }
 #bootstrap 
 {
@@ -222,18 +229,6 @@ blockquote {
 
 
 
-
-
-.subfooter {
-	background-color: #fafafa;
-	border-top: 1px solid #f3f3f3;
-	border-bottom: 1px solid #f3f3f3;
-	padding: 40px 0;
-}
-.section {
-	background-color: #ffffff;
-	padding: 80px 0;
-}
 
 /* Backgrounds
 ----------------------------------------------------------------------------- */
@@ -583,6 +578,10 @@ textarea {
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
 	color: #87F03C;
 }
+
+
+
+
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
 		padding-top: 30px;
