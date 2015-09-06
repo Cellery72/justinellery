@@ -188,15 +188,17 @@ blockquote {
     width: 50%;
     margin: 0 auto;
 }
-.subfooter {
-	background-color: #fafafa;
-	border-top: 1px solid #f3f3f3;
-	border-bottom: 1px solid #f3f3f3;
-	padding: 40px 0;
-}
 .section {
 	background-color: #ffffff;
 	padding: 80px 0;
+}
+.subfooter{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15px;
+  color:#ffffff;
+  text-align:right;
 }
 
 
@@ -226,9 +228,28 @@ blockquote {
 
 	margin-top: 49px;
 }
+#intro {
 
+}
+hr {
+	border-color:#333333;
+}
+#thisdiv {
+	border: 1px solid #000000;
+}
+#links{
+	padding-left:180px;
+	font-size: ;
+}
+#netherlands{
+	
+}
+.icons{
+	width:25px;
+	height:25px;
+    font-size: 2.4em;
 
-
+}
 
 /* Backgrounds
 ----------------------------------------------------------------------------- */
@@ -306,8 +327,16 @@ blockquote {
 .bg-image-2 {
 	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
 }
+.ontario {
+	background: url("../images/ontario.jpg") 50% 0px no-repeat;
+}
+
+.orange {
+	background: url("../images/orange.jpg") 50% 0px no-repeat;
+}
 .tobermory {
 	background: url("../images/tobermory.jpg") 50% 0px no-repeat;
+	height:790px;
 
 }
 
@@ -359,9 +388,6 @@ blockquote {
 }
 .banner-caption h1 {
 	font-size: 60px;
-}
-.subfooter p {
-	margin-bottom: 0;
 }
 
 /* Template Components
@@ -460,7 +486,9 @@ blockquote {
 }
 
 
-
+.center{
+	text-align: center;
+}
 
 
 
@@ -691,7 +719,7 @@ textarea {
 	font-size: 36px;
 }
 .social-links li a {
-	color: #ffffffz;
+	color: #ffffff;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
