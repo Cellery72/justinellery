@@ -29,8 +29,8 @@
 		<!-- Core CSS file -->
 		<link href="css/style.css" rel="stylesheet">
 
-		<!-- Custom css --> 
-		<link href="css/custom.css" rel="stylesheet">
+
+		<link href="css/lightbox.css" rel="stylesheet">
 
 
 	</head>
@@ -157,35 +157,54 @@
 		
 		<div class="container">
 			<div class="row" id="about">
+
+
 				<div class="col-md-12">
 					<h1 ><strong>About Justin</strong></h1>
-					<p class="lead">As you could of guessed by now my name is Justin Ellery, I'm a computer programming student at Fanshawe College in London, Ontario. One half of me has a passion for technology and the way it's empowering society. While my other half loves the outdoors, travelling and adventuring. This is a spot for the mix of both worlds;  pictures, words, videos, stories and more about my interests and views on technology as well as places I've been or want to go.</p>
-					
+					<br>
+					<p class="lead">As you could of guessed by now my name is Justin Ellery, I'm a computer programming student at Fanshawe College in London, Ontario. One half of me has a passion for technology and the way it's empowering society. While my other half loves the outdoors, travelling and adventuring. This is a spot for the mix of both worlds;  pictures, words, videos, stories and more about my interests and views on technology as well as places I've been or have been wanting to go.</p>
 					<hr>
 					<br>
 				</div>
 
-				<div class="col-sm-4">
-					<img id="netherlands" class="size-thumbnail center" src="images/orange.jpg" width="150" height="150">
-					<h4 class="center">Netherlands</h4>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive" src="images/orange.jpg" alt="">
+					        <div class="overlay">
+					           <h2>Amsterdam NL</h2>
+							   <a href="images/orange.jpg" class="info" data-lightbox="image-1" data-title="My caption">View</a>
+					        </div>
+					    </div>
+					</div>	
 
-					<p class="center">This is some sample text to creat the effect ive put real stuff here</p>
-				</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive" src="images/colorado.jpg" alt="">
+					        <div class="overlay">
+					           <h2>Maroon Bells CO</h2>
+							   <a href="images/colorado.jpg" class="info" data-lightbox="image-1" data-title="My caption">View</a>
+					        </div>
+					    </div>
+					</div>
 
-				<div class="col-sm-4">
-					<img id="colorado" class="center" src="images/colorado.jpg" width="250" height="250">
-					<h4 class="center">Colorado</h4>
-					<p class="center">This is some sample text to creat the effect ive put real stuff here</p>
-				</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive" src="images/tobermory2.jpg" alt="">
+					        <div class="overlay">
+					           <h2>Tobermory ON</h2>
+							   <a href="images/tobermory2.jpg" class="info" data-lightbox="image-1" data-title="My caption">View</a>
+					        </div>
+					    </div>
+					</div>
 
-				<div class="col-sm-4">
-					<img id="colorado" class="size-thumbnail center" src="images/tobermory2.jpg" width="250" height="250">
-					<h4 class="center">Tobermory, ON</h4>
-					<p class="center">This is some sample text to creat the effect ive put real stuff here</p>
+
+
+
+
+				
 				</div>
-			</div>
-					<br>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan ut urna ut volutpat. Vivamus ex sapien, imperdiet at commodo eget, ullamcorper quis massa. Phasellus egestas porttitor lectus et imperdiet. Proin ultrices turpis vel quam congue, consequat volutpat quam blandit. Curabitur malesuada, eros lobortis hendrerit venenatis, mi nibh molestie nunc, suscipit auctor lacus quam volutpat orci. In suscipit fringilla tortor, eu sagittis mi. Nunc in euismod elit. Phasellus eu lobortis risus. Donec risus ante, porttitor eu nisi et, lacinia efficitur risus.</p>
+						<br>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan ut urna ut volutpat. Vivamus ex sapien, imperdiet at commodo eget, ullamcorper quis massa. Phasellus egestas porttitor lectus et imperdiet. Proin ultrices turpis vel quam congue, consequat volutpat quam blandit. Curabitur malesuada, eros lobortis hendrerit venenatis, mi nibh molestie nunc, suscipit auctor lacus quam volutpat orci. In suscipit fringilla tortor, eu sagittis mi. Nunc in euismod elit. Phasellus eu lobortis risus. Donec risus ante, porttitor eu nisi et, lacinia efficitur risus.</p>
 		</div>
 	</div>
 	<!-- section end -->
@@ -198,6 +217,7 @@
 	<div class="section translucent-bg bg-image-1 green">
 		<div class="container object-non-visible" data-animation-effect="fadeIn">
 			<h1 id="services" class="text-center title">Favourite Technologies </h1>
+			<hr>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-6">
@@ -404,6 +424,10 @@
 
 	<!-- Custom Scripts -->
 	<script type="text/javascript" src="js/custom.js"></script>
+
+	<script type="text/javascript"src="js/jquery-1.11.3.min.js"></script>
+
+	<script type="text/javascript"src="js/lightbox.js"></script>
 
 </body>
 </html>
