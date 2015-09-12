@@ -72,7 +72,7 @@ a {
 	color: #87F03C;
 }
 a:hover {
-	color: #3D9200;
+	color:#000000;
 }
 a:focus,
 a:active {
@@ -199,6 +199,10 @@ blockquote {
   height: 15px;
   color:#ffffff;
   text-align:right;
+}
+.photos{
+	color:#000000;
+	font-style:italic;
 }
 
 
@@ -330,7 +334,7 @@ hr {
 	position: relative;
 }
 .bg-image-1 {
-	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
+	background: url("../images/mccrae.jpg") 50% 0px no-repeat;
 }
 .bg-image-2 {
 	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
