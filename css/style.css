@@ -227,15 +227,14 @@ blockquote {
 
 	margin-top: 49px;
 }
-
-#thishr{
+#whiteHR{
 	border-color:#ffffff;
 }
 #signature{
-	text-align: right;
+	font-family: 'Pacifico', Helvetica, sans-serif;
+	text-align: center;
+	font-size: 2.0em;
 }
-
-
 #VCS {
 
 	margin-top: 49px;
@@ -246,21 +245,12 @@ blockquote {
 hr {
 	border-color:#333333;
 }
-#thisdiv {
-	border: 1px solid #000000;
-}
 #links{
 	padding-left:180px;
 	font-size: ;
 }
 #colorado{
 	border: 1px solid #000000;
-}
-.icons{
-	width:25px;
-	height:25px;
-    font-size: 2.4em;
-
 }
 
 /* Backgrounds
