@@ -1,12 +1,3 @@
-<!--
-	Author: Justin Ellery
-	Author URL: http://www.elleryjustin.com
-	Version: 0.8.0
-	Created: August 2015
-	License:Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
-	File Description: Main HTML file for website.
--->
-
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
@@ -20,23 +11,32 @@
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<!-- Favicon -->
+
 		<!-- Web Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
 
 		<!-- Bootstrap core CSS -->
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
 		<!-- Font Awesome CSS -->
 		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
 		<!-- Plugins -->
 		<link href="css/animations.css" rel="stylesheet">
+
 		<!-- Core CSS file -->
 		<link href="css/style.css" rel="stylesheet">
-		<!-- Lightbox CSS file -->
-		<link href="css/lightbox.css" rel="stylesheet">
+
+		<!-- Custom css --> 
+		<link href="css/custom.css" rel="stylesheet">
+
+
 	</head>
 
 <body class="no-trans">
+
 
 	<!-- scrollToTop -->
 	<!-- ================ -->
@@ -58,14 +58,17 @@
 							<a href="#banner"><img id="logo" src="images/logo4.png" alt="JustinEllery logo"></a>
 						</div>
 
-						<!-- name-and-slogan -->						
+						<!-- name-and-slogan -->
 						<div class="site-name smooth-scroll">
 							<div class="site-name"><a href="#banner">Justin Ellery</a></div>
 							<div class="site-slogan">Web Developer</div>
-						</div>
-					</div>
-				</div>
 
+						</div>
+
+					</div>
+					<!-- header-left end -->
+
+				</div>
 				<div class="col-md-8">
 
 					<!-- header-right start -->
@@ -75,10 +78,12 @@
 						<!-- main-navigation start -->
 						<!-- ================ -->
 						<div class="main-navigation animated">
+
 							<!-- navbar start -->
 							<!-- ================ -->
 							<nav class="navbar navbar-default" role="navigation">
 								<div class="container-fluid">
+
 									<!-- Toggle get grouped for better mobile display -->
 									<div class="navbar-header">
 										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
@@ -88,6 +93,7 @@
 											<span class="icon-bar"></span>
 										</button>
 									</div>
+
 									<!-- Collect the nav links, forms, and other content for toggling -->
 									<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 										<ul class="nav navbar-nav navbar-right">
@@ -98,13 +104,17 @@
 											<li><a href="http://www.elleryjustin.com/wordpress">Blog</a></li>
 										</ul>
 									</div>
+
 								</div>
 							</nav>
 							<!-- navbar end -->
+
 						</div>
 						<!-- main-navigation end -->
+
 					</div>
 					<!-- header-right end -->
+
 				</div>
 			</div>
 		</div>
@@ -112,7 +122,7 @@
 	<!-- header end -->
 
 
-	<!-- Banner start -->
+	<!-- banner start -->
 	<!-- ================ -->
 	<div id="banner" class="banner">
 		<div class="banner-image"></div>
@@ -122,6 +132,8 @@
 					<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
 						<h1 class="text-center">Who is <span>Justin Ellery</span>?</h1>
 						<p class="lead text-center">I'm a student at Fanshawe College, web developer and technology enthusiast. I'm passionate about making great sites come to life using responsive web development with a mobile first approach.</p>
+
+
 						<ul class="socialize text-center">
 							<li class="linkedin"><a target="_blank" href="https://www.linkedin.com/pub/justin-ellery/75/381/68b"><i class="fa fa-linkedin"></i></a></li>
 							<li class="github"><a target="_blank" href="http://github.com/cellery72"><i class="fa fa-github"></i></a></li>
@@ -137,68 +149,52 @@
 
 
 
-	<!-- About section start -->
+	<!-- section start -->
 	<!-- ================ -->
-	<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">		
+	<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+
+		
 		<div class="container">
-			<div class="row" id="about">
+			<div class="row">
 				<div class="col-md-12">
-					<h1 align="center"><strong>About Justin</strong></h1>					
-					<p class="lead" align="center">If you couldn't of guessed by now my name is Justin Ellery! I'm a computer programming student at Fanshawe College/Part Time Web Developer in London, Ontario. One half of me has a passion for technology and the way it's empowering society. While my other half loves the outdoors, travelling and adventuring. This is a spot for the mix of both worlds;  pictures, words, videos, stories and more about my interests and views on technology as well as places I've been or have been wanting to go.</p>
+					<h1><strong>Who am I?</strong></h1>
+					<p class="lead">As you could of guessed by now my name is Justin Ellery 
+
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel ex laoreet, aliquam justo quis, pharetra lorem. Aenean diam nisi, tincidunt quis quam sit amet, aliquam porta velit. Ut mattis, purus vitae pretium lobortis, sem diam vehicula urna, vel hendrerit urna augue vitae libero. Proin at nisi sed leo porttitor facilisis. Curabitur nec erat sapien. Aliquam aliquam vestibulum mi vitae ullamcorper. Nullam aliquam ultricies elementum</p>
 					<hr>
 					<br>
-					<br>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					   <div class="hovereffect">
-					        <img class="img-responsive" src="images/orange.jpg" alt="" style="height:200px; width:400px;">
-						    <div class="overlay">
-						        <h2>Amsterdam NL</h2>
-							    <a href="images/orange.jpg" class="info" data-lightbox="image-1" data-title="My caption">View</a>
-						    </div>
-						</div>
-					<p class="lead" style="text-align: center;">Amsterdam, NL</p>
-				</div>	
-
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="images/colorado.jpg" alt="" style="height:200px; width:400px;">
-				      	<div class="overlay">
-				      		    <h2>Maroon Bells CO</h2>
-						 	    <a href="images/colorado.jpg" class="info" data-lightbox="image-1" data-title="My caption">View</a>
-					    </div>
-				   	</div>
-					<p class="lead" style="text-align: center;">Colorado, USA</p>
 				</div>
 
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				    <div class="hovereffect">
-					    <img class="img-responsive" src="images/grotto.jpg" alt="" style="height:200px; width:400px;">
-					    <div class="overlay">
-					        <h2>Tobermory ON</h2>
-							<a href="images/grotto.jpg" class="info" data-lightbox="image-1" data-title="My caption">View</a>
-					    </div>
-				    </div>
-					<p class="lead" style="text-align: center;">Tobermory, CAN</p>	
-			    </div>	
+				<div class="col-sm-4">
+					<img class="size-thumbnail center" src="images/jeep.jpg" width="150" height="150">
+					<h4 class="center">Hello</h4>
+
+					<p class="center">This is some sample text to creat the effect ive put real stuff here</p>
+				</div>
+
+				<div class="col-sm-4">
+					<h4 class="center">Hello</h4>
+					<p class="center">This is some sample text to creat the effect ive put real stuff here</p>
+				</div>
+
+				<div class="col-sm-4">
+					<h4 class="center">Hello</h4>
+					<p class="center">This is some sample text to creat the effect ive put real stuff here</p>
+				</div>
+
 			</div>
-			<br>
-			<p class="lead" align="center">    This past summer has been nothing short of awesome! In spring I ventured off to Europe with some friends in the Netherlands, went on a cycling trip from Poland through Germany to the NL. In July I went for a 10-day road trip from Ontario to Colorado and then back. Living out of a '97 Jeep TJ and camping in remote areas of National Forest turned out to be quite the adventure. I finished the summer camping up in Tobermory, Ontario where the water is gorgeous!   </p>
-			<p class="lead" align="center">    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat risus a semper tristique. Vestibulum tempus eget ex eget eleifend. Quisque et porttitor nulla. Proin vel quam pharetra, feugiat est eget, finibus ex. Donec et rhoncus est. Donec sodales erat rutrum congue ullamcorper. Mauris commodo tortor nulla, sit amet eleifend felis maximus sit amet. Aenean in imperdiet augue. Vestibulum sodales ac urna a dapibus. Maecenas sed enim tellus. Aenean vitae scelerisque ipsum, eu ullamcorper dolor.</p>
-			<p id="signature">J Ellery</p>
 		</div>
 	</div>
-	<!-- About section end -->
+	<!-- section end -->
 
 
 
 
-	<!-- Services/Technologies section starts -->
+	<!-- section start -->
 	<!-- ================ -->
 	<div class="section translucent-bg bg-image-1 green">
 		<div class="container object-non-visible" data-animation-effect="fadeIn">
 			<h1 id="services" class="text-center title">Favourite Technologies </h1>
-			<hr id="thishr">
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-6">
@@ -290,100 +286,140 @@
 				</div>
 			</div>
 		</div>
-		<br>
 	</div>
-	<!-- Services/Technologies section ends -->
-
-	<!-- Promo section starts -->
+	<!-- section end -->
+	<!-- section start -->
 	<!-- ================ -->
-	<div id="contact" class="default-bg space blue">
+	<div class="default-bg space blue">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h1 class="text-center">Let's Work Together!</h1>					
+					<h1 class="text-center">Let's Work Together!</h1>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Promo section ends -->
-
-	<!-- Contact Section starts -->
+	<!-- section end -->
+	<!-- footer start -->
 	<!-- ================ -->
 	<footer id="footer">
-		<div  class="section translucent-bg tobermory green" class="footer section">
-			<div  class="container">
+
+		<!-- .footer start -->
+		<!-- ================ -->
+		<div class="section translucent-bg tobermory green" class="footer section">
+			<div class="container">
+				<h1 class="title text-center" id="contact">Contact <span>Mr. Ellery</span></h1>
 				<div class="space"></div>
+
 				<div class="row">
-					<br>
-					<!-- LEFT -->
-					<!-- ================ -->
-					<div class="col-sm-6">						
+					<div class="col-sm-6">
+
+						
 						<div class="footer-content">
-							<p id="unique" class="text-center lead">If you would like to get in contact, have a question, or want to inquiry about web work please fill out a brief message and I'll get back to you in 24 hours or less! I'm also available by telephone 9-5 Monday-Friday if you're calling from Canada. If not give me a call on Skype and we can work something out!</p>
-							<ul class="center list-icons">
-								<li><i class="fa fa-phone pr-10"></i> 1 705 791 8914</li>
-								<li><i class="fa fa-envelope-o pr-10"></i>hello@elleryjustin.com</li>
-							</ul>	
-							<ul id="links" class="social-links">
+
+							<p id="unique" class="large">If you're looking to get in touch for a free consultation please do not hesitate to drop me a line here or via 
+								<a href="mailto:hello@elleryjustin.com" id="email">email!</a> I'm also available by telephone 9-5 Monday-Friday if you're calling from Canada. If not give me a call on Skype and we can work something out!</p>
+							
+							<div class="center">
+								<ul class="list-icons">
+									<li><i class="fa fa-phone pr-10"></i> 1 705 791 8914</li>
+									<li><i class="fa fa-envelope-o pr-10"></i>hello@elleryjustin.com</li>
+								</ul>
+							</div>
+
+
+							<ul class="social-links">
 								<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
 								<li class="github"><a target="_blank" href="http://plus.google.com"><i class="fa fa-github"></i></a></li>
 								<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
 								<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
+
 						</div>
+
+
+
+
+
+
+
 					</div>
 
-					<!-- RIGHT -->
-					<!-- ================ -->
 					<div class="col-sm-6">
-						<div class="footer-content">							
+						<div class="footer-content">
+							
 							<form role="form" id="footer-form">
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="name2">Name</label>
 									<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+
+
 									<i class="fa fa-user form-control-feedback"></i>
 								</div>
+
+
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="email2">Email address</label>
 									<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
 									<i class="fa fa-envelope form-control-feedback"></i>
 								</div>
+
+
+
+
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="message2">Message</label>
 									<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
 									<i class="fa fa-pencil form-control-feedback"></i>
-								</div>								
+								</div>
+								
 								<input type="submit" value="Send" class="btn btn-default">
 							</form>
+
+
+
 						</div>
-					</div>					
+					</div>
 				</div>
+
+
+						<p class="text-right">Copyright © 2015 Justin Ellery.</p>
 			</div>
-			<p class="subfooter text-right">Copyright © 2015 Justin Ellery.</p>
-		</div>						
+		</div>
+
+
+
+		<!-- .footer end -->
+		<!-- .subfooter start -->
+		<!-- ================ -->
+		
+		<!-- .subfooter end -->
+
 	</footer>
-	<!-- Contact Section ends -->
-
-
+	<!-- footer end -->
 	<!-- JavaScript files placed at the end of the document so the pages load faster
 	================================================== -->
 	<!-- Jquery and Bootstap core js files -->
 	<script type="text/javascript" src="plugins/jquery.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
 	<!-- Modernizr javascript -->
 	<script type="text/javascript" src="plugins/modernizr.js"></script>
+
 	<!-- Isotope javascript -->
 	<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+
 	<!-- Backstretch javascript -->
 	<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+
 	<!-- Appear javascript -->
 	<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
 	<!-- Initialization of Plugins -->
 	<script type="text/javascript" src="js/template.js"></script>
-	<!-- Jquery -->
-	<script type="text/javascript"src="js/jquery-1.11.3.min.js"></script>
-	<!-- Lightbox -->
-	<script type="text/javascript"src="js/lightbox.js"></script>
-</body>
 
+	<!-- Custom Scripts -->
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
 </html>
