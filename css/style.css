@@ -1,10 +1,10 @@
 /*
 	Author: Justin Ellery
 	Author URL: http://www.elleryjustin.com
-	Version: 0.6.0
+	Version: 0.8.0
 	Created: September 2015
 	License:Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
-	File Description: Main CSS file of the site 
+	File Description: Main CSS file of the website.
 */
 
 
@@ -227,7 +227,9 @@ blockquote {
 #thishr{
 	border-color:#ffffff;
 }
-
+#signature{
+	text-align: right;
+}
 
 
 #VCS {
