@@ -339,7 +339,7 @@
 					<!-- ================ -->
 					<div class="col-sm-6">
 						<div class="footer-content">							
-							<form role="form" id="footer-form">
+							<form role="form" id="ajax-contact" method="post" action="mailer.php">
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="name2">Name</label>
 									<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
@@ -358,7 +358,8 @@
 								<button type="submit" id="form-submit" class="btn btn-lg pull-right ">Submit</button>
 							</form>
 						</div>
-					</div>					
+					</div>		
+					<div id="form-messages"><p></p></div>			
 				</div>
 			</div>
 			<p class="subfooter text-right">Copyright © 2015 Justin Ellery.</p>
@@ -382,10 +383,10 @@
 	<script type="text/javascript" src="plugins/jquery.appear.js"></script>
 	<!-- Initialization of Plugins -->
 	<script type="text/javascript" src="js/template.js"></script>
-	<!-- Jquery -->
-	<script type="text/javascript"src="js/jquery-1.11.3.min.js"></script>
 	<!-- Lightbox -->
 	<script type="text/javascript"src="js/lightbox.js"></script>
+	<!-- Custom Javascript -->
+	<script type="text/javascript" src="js/custom.js"
 </body>
 
 </html>
