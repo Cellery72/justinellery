@@ -34,8 +34,20 @@
 		<link href="css/style.css" rel="stylesheet">
 		<!-- Lightbox CSS file -->
 		<link href="css/lightbox.css" rel="stylesheet">
+		<!-- Hover effects CSS file -->
+		<link href="css/hover.css" rel="stylesheet">
 
+		<!-- Fancy font -->
 		<link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+		
+		<script>
+			function SetYear() 
+			{
+				var thisDate=new Date();
+				var thisYear=thisDate.getFullYear();
+				document.getElementById('copyR').innerHTML="&copy; "+thisYear;
+			}
+		</script>
 	</head>
 
 <body class="no-trans">
@@ -187,8 +199,9 @@
 			<br>
 			<p class="lead" align="center">This past summer has been nothing short of awesome! In spring I ventured off to Europe with some friends in the Netherlands, went on a cycling trip from Poland through Germany to the NL. In July I went for a 10-day road trip from Ontario to Colorado and then back. Living out of a <a href="images/jeepfull.jpg" class="photos" data-lightbox="image-2" data-title="Sittin' roadside in Colorado.">'97 Jeep TJ</a> and camping in remote areas of National Forest turned out to be quite the adventure. I finished the summer camping up in Tobermory, Ontario where the water is gorgeous! If you'd like to read more about some of my adventures you can check them out <a href="http://www.elleryjustin.com/wordpress/" class="photos">here!</a></p>
 			<p class="lead" align="center"> If you're looking for your first website, or know exactly what you want I'd love to get in touch and see what you have in mind. As a student I'm constantly looking for ways to earn money to pay for tuition and over the past 3 years I've gained quite a great foundation of self-taught knowledge in web development. So if you're looking for moderate priced web work from a driven young college student look no further!</p>
-			<br>			
-			<p id="signature">J Ellery</p>
+			<br>		
+			<br>	
+			<h4 style="text-align:right;"><a href="#contact" id="signature">Contact Justin Ellery</a></h1>
 		</div>
 	</div>
 	<!-- About section end -->
@@ -319,13 +332,19 @@
 					<br>
 					<!-- LEFT -->
 					<!-- ================ -->
-					<div class="col-sm-6">						
+					<div class="col-sm-6 cold-sm-offset-3">						
 						<div class="footer-content">
+							
+
 							<p id="unique" class="text-center lead">If you've already got an idea in mind and want to contact me for a future project OR potential future employment you can fill out a quick email and I'll get back to you in less than a day! Otherwise you can find me on Twitter, Github, Skype and LinkedIn.</p>
+							
+
 							<ul class="center list-icons">
 								<li><i class="fa fa-phone pr-10"></i> 1 705 791 8914</li>
 								<li><i class="fa fa-envelope-o pr-10"></i>hello@elleryjustin.com</li>
 							</ul>	
+
+
 							<ul id="links" class="social-links">
 								<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
 								<li class="github"><a target="_blank" href="http://plus.google.com"><i class="fa fa-github"></i></a></li>
@@ -358,11 +377,15 @@
 								<button type="submit" id="form-submit" class="btn btn-lg pull-right ">Submit</button>
 							</form>
 						</div>
-					</div>		
+					</div>	
+
+
+
+
 					<div id="form-messages"><p></p></div>			
 				</div>
 			</div>
-			<p class="subfooter text-right">Copyright © 2015 Justin Ellery.</p>
+			<p class="subfooter" id="copyR"></p>
 		</div>						
 	</footer>
 	<!-- Contact Section ends -->
@@ -386,7 +409,15 @@
 	<!-- Lightbox -->
 	<script type="text/javascript"src="js/lightbox.js"></script>
 	<!-- Custom Javascript -->
-	<script type="text/javascript" src="js/custom.js"
+	<script type="text/javascript" src="js/custom.js"></script>
+	
+	<script language="javascript">
+		window.onload= function() 
+		{
+			SetYear();
+		}
+	</script>
+
 </body>
 
 </html>

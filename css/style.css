@@ -68,9 +68,6 @@ h4 span {
 .text-colored {
 	color: #87F03C;
 }
-a {
-	color: #87F03C;
-}
 a:hover {
 	color:#000000;
 }
@@ -232,8 +229,8 @@ blockquote {
 }
 #signature{
 	font-family: 'Pacifico', Helvetica, sans-serif;
-	text-align: center;
-	font-size: 2.0em;
+	font-size: 300%;
+	color:#000000;
 }
 #VCS {
 
