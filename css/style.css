@@ -68,11 +68,8 @@ h4 span {
 .text-colored {
 	color: #87F03C;
 }
-a {
-	color: #87F03C;
-}
 a:hover {
-	color: #3D9200;
+	color:#000000;
 }
 a:focus,
 a:active {
@@ -200,6 +197,10 @@ blockquote {
   color:#ffffff;
   text-align:right;
 }
+.photos{
+	color:#000000;
+	font-style:italic;
+}
 
 
 
@@ -223,15 +224,14 @@ blockquote {
 
 	margin-top: 49px;
 }
-
-#thishr{
+#whiteHR{
 	border-color:#ffffff;
 }
 #signature{
-	text-align: right;
+	font-family: 'Pacifico', Helvetica, sans-serif;
+	font-size: 300%;
+	color:#000000;
 }
-
-
 #VCS {
 
 	margin-top: 49px;
@@ -242,21 +242,12 @@ blockquote {
 hr {
 	border-color:#333333;
 }
-#thisdiv {
-	border: 1px solid #000000;
-}
 #links{
 	padding-left:180px;
 	font-size: ;
 }
 #colorado{
 	border: 1px solid #000000;
-}
-.icons{
-	width:25px;
-	height:25px;
-    font-size: 2.4em;
-
 }
 
 /* Backgrounds
@@ -330,7 +321,7 @@ hr {
 	position: relative;
 }
 .bg-image-1 {
-	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
+	background: url("../images/mccrae.jpg") 50% 0px no-repeat;
 }
 .bg-image-2 {
 	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
