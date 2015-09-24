@@ -9,4 +9,4 @@ to my wordpress blog and a brief contact form. The site is built with bootstrap 
 it's a journey for me and I hope to learn a lot a long the way.
 <br>
 <br>
-Feel free to <a href="mailto:hello@elleryjustin.com">contact me</a> should you have any questions!
+Feel free to send me an email (hello@elleryjustin.com) should you have any questions!
