@@ -1,35 +1,37 @@
 {
-    "name": "justinellery",
-    "version": "1.0.0",
-    "description": "A Personal Webapp created by a lone developer in a lost universe",
-    "main": "index.js",
-    "dependencies": {},
-    "devDependencies": {
-        "grunt": "^0.4.5",
-        "grunt-browser-sync": "^2.2.0",
-        "grunt-concat-css": "^0.3.1",
-        "grunt-contrib-concat": "^0.5.1",
-        "grunt-contrib-connect": "^0.11.2",
-        "grunt-contrib-csslint": "^0.5.0",
-        "grunt-contrib-cssmin": "^0.14.0",
-        "grunt-contrib-htmlmin": "^0.6.0",
-        "grunt-contrib-jshint": "^0.11.3",
-        "grunt-contrib-qunit": "^0.7.0",
-        "grunt-contrib-uglify": "^0.11.0",
-        "grunt-contrib-watch": "^0.6.1",
-        "grunt-html": "^5.0.1"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Cellery72/justinellery.git"
-    },
-    "author": "Justin Ellery",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Cellery72/justinellery/issues"
-    },
-    "homepage": "https://github.com/Cellery72/justinellery#readme"
+  "name": "justinellery",
+  "version": "1.0.0",
+  "description": "A Personal Webapp created by a lone developer in a lost universe",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-csslint": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-htmlmin": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-qunit": "^0.7.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-html": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cellery72/justinellery.git"
+  },
+  "author": "Justin Ellery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cellery72/justinellery/issues"
+  },
+  "homepage": "https://github.com/Cellery72/justinellery#readme"
 }

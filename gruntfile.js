@@ -69,7 +69,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-browser-sync');
 
 
-    grunt.registerTask('default', ['jshint','concat', 'uglify', 'htmlmin', 'cssmin']);
+    grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'htmlmin', 'cssmin']);
     grunt.registerTask('lintme', ['jshint', 'htmllint', 'csslint']);
 
 };
