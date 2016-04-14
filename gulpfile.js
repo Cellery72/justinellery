@@ -1,12 +1,18 @@
 const gulp = require('gulp');
 const imagemin = require('gulp-imagemin');
+
 var PATHS = {
         html: ['src/index.html'],
         css: ['src/assets/css/animate.css', 'src/assets/css/animations.css', 'src/assets/css/style.css'],
         js: ['src/js/jquery.appear.js', 'src/js/template.js'],
-        images: ['src/assets/images/orange.jpg', 'src/assets/images/colorado.jpg','src/assets/images/banner.jpg',
-            'src/assets/images/grotto.jpg', 'src/assets/images/mccrae.jpg', 'src/assets/images/tobermory.jpg','src/assets/images/logo4.png'],
-        favicon: ['src/favicon']
+        favicon: ['src/favicon/**/*'],
+        images: ['src/assets/images/orange.jpg',
+                 'src/assets/images/colorado.jpg',
+                 'src/assets/images/banner.jpg',
+                 'src/assets/images/grotto.jpg',
+                 'src/assets/images/mccrae.jpg',
+                 'src/assets/images/tobermory.jpg',
+                 'src/assets/images/logo4.png']
 };
 
 gulp.task('clean', function(done) {
@@ -58,4 +64,4 @@ gulp.task('fonts', function() {
         .pipe(gulp.dest('public/assets/fonts'))
 })
 
-gulp.task('build', ['clean', 'imagemin', 'cssmin', 'jsmin', 'htmlmin', 'copy']);
+gulp.task('build', ['clean', 'imagemin', 'cssmin', 'jsmin', 'htmlmin', 'fonts','copy']);
