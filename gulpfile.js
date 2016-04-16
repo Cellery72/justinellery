@@ -1,6 +1,11 @@
-const gulp = require('gulp');
-const imagemin = require('gulp-imagemin');
-
+var gulp = require('gulp'),
+    cleanCSS = require('gulp-clean-css'),
+    htmlmin = require('gulp-htmlmin'),
+    imagemin = require('gulp-imagemin'),
+    jsmin = require('gulp-jsmin'),
+    del = require('del'),
+    jpegtran = require('imagemin-jpegtran');
+    
 var PATHS = {
         html: ['src/index.html'],
         css: ['src/assets/css/animate.css', 'src/assets/css/animations.css', 'src/assets/css/style.css'],
@@ -16,19 +21,16 @@ var PATHS = {
 };
 
 gulp.task('clean', function(done) {
-    var del = require('del');
     del(['public'], done);
 });
 
 gulp.task('jsmin', () => {
-    var jsmin = require('gulp-jsmin');
     gulp.src(PATHS.js)
         .pipe(jsmin())
         .pipe(gulp.dest('public/js'));
 });
 
 gulp.task('cssmin', function() {
-    var cleanCSS = require('gulp-clean-css');
     gulp.src(PATHS.css)
         .pipe(cleanCSS({
             compatibility: 'ie8'
@@ -37,7 +39,6 @@ gulp.task('cssmin', function() {
 });
 
 gulp.task('imagemin', () => {
-    var jpegtran = require('imagemin-jpegtran');
     gulp.src(PATHS.images)
         .pipe(imagemin({progressive: true,
           svgoPlugins: [{removeViewBox: false}],
@@ -46,10 +47,11 @@ gulp.task('imagemin', () => {
 });
 
 gulp.task('htmlmin', function() {
-    var htmlmin = require('gulp-htmlmin');
     gulp.src(PATHS.html)
         .pipe(htmlmin({
-            collapseWhitespace: true
+            collapseWhitespace: true,
+            removeComments: true,
+            jsmin: true
         }))
         .pipe(gulp.dest('public'));
 });
@@ -63,5 +65,9 @@ gulp.task('fonts', function() {
     gulp.src('src/assets/fonts/**/*')
         .pipe(gulp.dest('public/assets/fonts'))
 })
+
+gulp.task('del-node', function(done){
+    del(['node_modules'], done);
+});
 
 gulp.task('build', ['clean', 'imagemin', 'cssmin', 'jsmin', 'htmlmin', 'fonts','copy']);
